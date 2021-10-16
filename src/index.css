@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #171719;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.parallax__container {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  padding: 5rem 0;
+}
+
+.parallax__content {
+  font-size: 60px;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.img01,
+.img02,
+.img03 {
+  opacity: 0;
+  width: 245px;
+  position: absolute;
+  transition: all 500ms linear;
+}
+
+.img02 {
+  right: 0;
+  bottom: -545px;
+}
+
+.img01 {
+  left: 0;
+  bottom: -245px;
+}
+
+.img03 {
+  left: 0;
+  bottom: -745px;
+}
